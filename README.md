@@ -11,6 +11,8 @@ Recursos y setup para la clase de live coding con Strudel, enviando datos OSC a 
 | Comunidad global (TOPLAP) | http://toplap.org/ |
 | Nodos autogestivos | https://blog.toplap.org/nodes/ |
 | Nodo argentino | https://colectivo-de-livecoders.gitlab.io/ |
+| Manifiesto | https://toplap.org/wiki/ManifestoDraft |
+
 
 ---
 
