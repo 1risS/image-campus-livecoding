@@ -18,8 +18,10 @@ Recursos y setup para la clase de live coding con Strudel, enviando datos OSC a 
 
 | Herramienta | Link |
 |---|---|
-| Hydra (visuals) | https://hydra.ojack.xyz/ |
 | Strudel (audio) | https://strudel.cc/ |
+| práctica de ensamble | https://flok.cc/s/exceptional-ivory-bedbug-715799a7 |
+| Hydra (visuales) | https://hydra.ojack.xyz/ |
+| Cheatsheet con funciones por tipo | https://hydra.ojack.xyz/api/ |
 | Awesome Live Coding (más techs) | https://github.com/toplap/awesome-livecoding |
 | Documentación de configuración multicanal en Strudel | https://strudel.cc/learn/effects/#orbits |
 
@@ -65,7 +67,6 @@ El servidor escucha WebSockets en el puerto `8080` y reenvía los mensajes OSC a
 | Recurso | Link |
 |---|---|
 | Slides | https://www.figma.com/deck/PrTRx0ogfL8jIYqAXuCjHR/Image-Campus?node-id=7-34&t=m8rzh74aeouhvgsU-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1 |
-| Flok, editor colaborativo | https://flok.cc/s/exceptional-ivory-bedbug-715799a7 |
 
 
 
