@@ -12,7 +12,7 @@ import { WebSocketServer } from 'ws'
 import osc from 'osc'
 
 const WS_PORT = 8080 // WebSocket server port (no cambiar, ya que el cliente de Strudel lo espera en este puerto)
-const OSC_REMOTE_IP = '127.0.0.1' // IP destino (donde está TD, normalmente localhost)
+const OSC_REMOTE_IP = '127.0.0.1' // IP destino (donde está TD, normalmente localhost pero si es un programa en otra compu hay que poner esa IP)
 const OSC_REMOTE_PORT = 3000 //puerto en el que va a escuchar TD
 
 const udpPort = new osc.UDPPort({
