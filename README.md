@@ -2,13 +2,6 @@
 
 Recursos y setup para la clase de live coding con Strudel, enviando datos OSC a TouchDesigner.
 
-## Presentación
-
-| Recurso | Link |
-|---|---|
-| Slides | https://www.figma.com/deck/PrTRx0ogfL8jIYqAXuCjHR/Image-Campus?node-id=7-34&t=m8rzh74aeouhvgsU-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1 |
-
-
 ---
 
 ## Comunidad
@@ -64,4 +57,14 @@ El servidor escucha WebSockets en el puerto `8080` y reenvía los mensajes OSC a
 ### Tutorial: recibir OSC en TouchDesigner
 
 - [How to receive OSC in TouchDesigner](https://www.youtube.com/watch?v=24DY4vRZgdg)
+
+---
+
+## Presentación
+
+| Recurso | Link |
+|---|---|
+| Slides | https://www.figma.com/deck/PrTRx0ogfL8jIYqAXuCjHR/Image-Campus?node-id=7-34&t=m8rzh74aeouhvgsU-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1 |
+
+
 
