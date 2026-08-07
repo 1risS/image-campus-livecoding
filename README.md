@@ -21,6 +21,7 @@ Recursos y setup para la clase de live coding con Strudel, enviando datos OSC a 
 | Hydra (visuals) | https://hydra.ojack.xyz/ |
 | Strudel (audio) | https://strudel.cc/ |
 | Awesome Live Coding (más techs) | https://github.com/toplap/awesome-livecoding |
+| Documentación de configuración multicanal en Strudel | https://strudel.cc/learn/effects/#orbits |
 
 ---
 

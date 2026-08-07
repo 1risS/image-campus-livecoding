@@ -11,8 +11,8 @@ This program is free software: you can redistribute it and/or modify it under th
 import { WebSocketServer } from 'ws'
 import osc from 'osc'
 
-const WS_PORT = 8080 // WebSocket server port
-const OSC_REMOTE_IP = '127.0.0.1' // IP destino (donde está TD)
+const WS_PORT = 8080 // WebSocket server port (no cambiar, ya que el cliente de Strudel lo espera en este puerto)
+const OSC_REMOTE_IP = '127.0.0.1' // IP destino (donde está TD, normalmente localhost)
 const OSC_REMOTE_PORT = 3000 //puerto en el que va a escuchar TD
 
 const udpPort = new osc.UDPPort({
@@ -47,11 +47,15 @@ wss.on('connection', ws => {
       if ('port' in data) {
         osc_port = data['port']
       }
+
+      // parseo del mensaje OSC como un objeto para acceder a la info de interés
       const rawArgs = data['args']
       const args = {}
       for (let i = 0; i < rawArgs.length - 1; i += 2) {
         args[rawArgs[i]] = rawArgs[i + 1]
       }
+
+      // address OSC
       let addr = `/orbit/${args['orbit'] || 0}`
 
       let msg = { address: addr, args: data['args'] }
